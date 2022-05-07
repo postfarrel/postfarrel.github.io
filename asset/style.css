@@ -42,6 +42,7 @@ img{
 .left-hero-container{  
     display: flexbox;
     flex-direction: column; 
+    padding-left: 1em;
 }
 
 .left-hero-container .hero-fill{
@@ -58,6 +59,7 @@ img{
 .our-photo {
     margin: 0;
     padding-top: 0.7em;
+    padding-left: 4em;
     height: 365px;
     width: 365px;    
 }
@@ -66,4 +68,45 @@ img{
     height: 365px;  
     padding-top: 0.6em;
     margin: 0;  
+}
+
+.sub-bio-container{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+.sub-bio-container .left-bio-container{
+    display: flex;
+    flex-direction:row;
+}
+
+.sub-bio-container .left-bio-container .his-photo{
+    padding-left: 6em;
+    padding-top: 0.6em;
+    padding-right: 3em;
+}
+
+.sub-bio-container .left-bio-container .bio-detail{
+    padding-left: 1em;
+}
+
+.sub-bio-container .right-bio-container{
+    display: flex;
+    flex-direction:row;
+}
+
+.sub-bio-container .mid-divider{    
+    padding-top: 0.6em;
+    margin: 0;
+    height: 280px;
+}
+
+.sub-bio-container .right-bio-container .bio-detail{
+    margin-left: 3em;
+}
+
+.sub-bio-container .right-bio-container .her-photo{
+    padding-left: 4.2em;
 }
