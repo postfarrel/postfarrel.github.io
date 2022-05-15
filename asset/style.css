@@ -1,59 +1,76 @@
-img{
+img {
     max-width: 100%;
     max-height: 100%;
 }
 
-.main-container{
+body{
+   background-color: #FFC6BE;
+}
+
+p{
+    color: #854777;
+}
+
+h2{
+    color: #854777;
+}
+
+h3{
+    color: #854777;
+}
+
+.main-container {
     display: grid;
     grid-auto-flow: row;
     margin: 0;
     padding: 0;
 }
 
-.navbar-container{
+.navbar-container {
     display: grid;
     grid-auto-flow: row;
-    padding-left: 32em;
+    padding-left: 36.5em;
 }
 
-.navbar-container li{
+.navbar-container li {
     list-style-type: none;
-    text-decoration: none;
+    text-decoration: #854777;
     display: inline;
     padding-left: 1em;
 }
 
-.navbar-container a{
+.navbar-container a {
     text-decoration: none;
-    color: black;
+    color: #854777;
 }
 
-.hero-container{
+.hero-container {
     display: grid;
     grid-auto-flow: row;
     padding: 0;
     margin: 0;
 }
 
-.sub-hero-container{
+.sub-hero-container {
     display: grid;
     grid-auto-flow: column;
 }
-.left-hero-container{  
+
+.left-hero-container {
     display: flexbox;
-    flex-direction: column; 
+    flex-direction: column;
     padding-left: 1em;
 }
 
-.left-hero-container .hero-fill{
+.left-hero-container .hero-fill {
     width: 792px;
     padding: 0;
     margin: 0;
 }
 
-.left-hero-container .hero-title{
-    padding-left: 20em;    
-    
+.left-hero-container .hero-title {
+    padding-left: 20em;
+
 }
 
 .our-photo {
@@ -61,52 +78,156 @@ img{
     padding-top: 0.7em;
     padding-left: 4em;
     height: 365px;
-    width: 365px;    
+    width: 365px;
 }
 
-.mid-divider{
-    height: 365px;  
+.mid-divider {
+    height: 365px;
     padding-top: 0.6em;
-    margin: 0;  
+    margin: 0;
 }
 
-.sub-bio-container{
+.sub-bio-container {
     display: flex;
     flex-direction: row;
     padding: 0;
     margin: 0;
 }
 
-.sub-bio-container .left-bio-container{
+.sub-bio-container .left-bio-container {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
 }
 
-.sub-bio-container .left-bio-container .his-photo{
+.sub-bio-container .left-bio-container .his-photo {
     padding-left: 6em;
     padding-top: 0.6em;
     padding-right: 3em;
 }
 
-.sub-bio-container .left-bio-container .bio-detail{
+.sub-bio-container .left-bio-container .bio-detail {
     padding-left: 1em;
 }
 
-.sub-bio-container .right-bio-container{
+.sub-bio-container .right-bio-container {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
 }
 
-.sub-bio-container .mid-divider{    
+.sub-bio-container .mid-divider {
     padding-top: 0.6em;
     margin: 0;
     height: 280px;
 }
 
-.sub-bio-container .right-bio-container .bio-detail{
+.sub-bio-container .right-bio-container .bio-detail {
     margin-left: 3em;
 }
 
-.sub-bio-container .right-bio-container .her-photo{
+.sub-bio-container .right-bio-container .her-photo {
     padding-left: 4.2em;
 }
+
+.footer-container {
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.sub-footer-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 9em;
+
+}
+
+.left-footer-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.style-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-arrow{
+    height: 450px;
+    padding-left: 2em;
+    padding-top: 6em;
+}
+
+.his-clothes{
+    height: 500px;
+    padding-left: 5em;
+}
+
+#our-style{
+    padding-left: 39.4em;
+}
+
+#his-style{
+    padding-left: 15.6em;
+}
+
+.mid-footer-container{
+    padding-top: 2.5em;    
+    padding-left: 2em;
+    font-size: x-large;
+}
+
+#jeans{
+    padding-left: 2.7em;
+    padding-top: 2em;
+}
+
+#shirt{
+    padding-left: 2.7em;
+    padding-top: 2em;
+}
+
+#tshirt{
+    padding-left: 2.2em;
+    padding-top: 2em;
+}
+
+#pashmina{
+    padding-left: 1.65em;
+    padding-top: 0em;
+}
+
+#shoes{
+    padding-top: 3em;
+}
+
+#right-arrow{
+    height: 650px;
+    padding-left: 2em;
+    padding-top: 0em;
+}
+
+#her-clothes{
+    height: 625px;
+    padding-left: 2em;
+}
+
+#her-style{
+    padding-left: 7.3em;
+}
+
+.photo{
+    height: 400px;
+}
+
+.gallery-row{
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.col{    
+    display: grid;
+    grid-auto-flow: column;
+    padding-bottom: 2em;
+    padding-left: 5em;
+}
+
+
